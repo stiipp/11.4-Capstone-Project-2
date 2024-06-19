@@ -1,0 +1,182 @@
+* {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+html {
+  background-color: rgb(33, 37, 41);
+}
+div,
+section {
+  background-color: rgb(33, 37, 41);
+}
+.nav-items .nav-item {
+  margin-left: 40px;
+  font-size: 14px;
+}
+a.custom-brand {
+  font-size: 35px;
+  color: #55a3ff;
+}
+.welcome-heading h1 {
+  font-weight: 700;
+  font-size: 90px;
+}
+.welcome-heading {
+  margin: 100px;
+}
+span {
+  color: #55a3ff;
+  font-weight: 500;
+}
+img.welcome-img {
+  width: 480px;
+  align-self: center;
+}
+img.about-me-img {
+  width: 450px;
+}
+.section-1 {
+  padding-top: 50px;
+  padding-bottom: 30vh;
+}
+.section-2 *,
+.section-4 *,
+.section-5 * {
+  background-color: rgb(23, 28, 33);
+}
+.container-bg {
+  padding: 70px;
+}
+.section-3 {
+  padding-top: 10vh;
+}
+p.about-me {
+  text-align: justify;
+  font-size: 18px;
+  padding: 100px;
+  font-weight: 300;
+}
+.skill {
+  width: 80px;
+}
+.box-item {
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  padding: 25px;
+  width: 100px;
+  height: 100px;
+  margin: 20px 40px;
+  box-sizing: border-box;
+  flex: 0 0 100px;
+}
+.box-item p {
+  font-size: 12px;
+  color: gray;
+  margin-top: 5px;
+}
+.box-wrapper {
+  padding: 50px;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  padding: 40px;
+}
+.github-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+small {
+  color: gray;
+  word-spacing: 15px;
+}
+.custom-card-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.project-card {
+  margin: 10px;
+}
+.contact-heading {
+  font-size: 30px;
+}
+.contact-text {
+  font-size: 13px;
+  margin-top: 10px;
+  color: gray;
+}
+.container-bg.contact * {
+  background-color: rgb(33, 37, 41);
+}
+.contact-btn {
+  margin-top: 40px;
+}
+.copyright {
+  font-size: 12px;
+  margin-top: 30px;
+  color: gray;
+}
+.footer-link {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .welcome-heading h1 {
+    font-size: 50px;
+  }
+  .welcome-heading p {
+    font-size: 12px;
+  }
+  p.about-me {
+    font-size: 14px;
+    padding: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .welcome-heading * {
+    text-align: center;
+  }
+  .contact-heading,
+  .contact-text {
+    text-align: center;
+  }
+  .contact-heading {
+    font-size: 15px;
+  }
+  .contact-text {
+    font-size: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .project-wrapper {
+    flex-direction: column;
+  }
+  .project-wrapper * {
+    align-items: center;
+    justify-content: center;
+  }
+  .project-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px 0;
+  }
+  .card-img-top {
+    height: 100px;
+  }
+  .custom-card-title {
+    font-size: 14px;
+    text-align: center;
+  }
+  .github-icon {
+    width: 12px;
+    height: 12px;
+  }
+  .tech-stack {
+    text-align: center;
+    font-size: 10px;
+  }
+}
