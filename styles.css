@@ -111,9 +111,6 @@ small {
 .container-bg.contact * {
   background-color: rgb(33, 37, 41);
 }
-.contact-btn {
-  margin-top: 40px;
-}
 .copyright {
   font-size: 12px;
   margin-top: 30px;
@@ -149,6 +146,9 @@ small {
   }
   .contact-text {
     font-size: 10px;
+  }
+  .contact-btn {
+    margin-top: 40px;
   }
 }
 @media (max-width: 576px) {
